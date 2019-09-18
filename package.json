@@ -1,0 +1,27 @@
+{
+  "name": "vber",
+  "version": "1.0.0",
+  "description": "simil uber app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elPoeta/vber.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongoose"
+  ],
+  "author": "Leonardo Tosetto (leonardo.a.tosetto@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elPoeta/vber/issues"
+  },
+  "homepage": "https://github.com/elPoeta/vber#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  }
+}
