@@ -2,7 +2,9 @@ const express = require('express');
 const app = express();
 const { PORT } = require('./config/keys');
 
-require("./startUp/mongodb")();
+require('./startUp/mongodb')();
+require('./startUp/parser')(app);
+require('./startUp/routes')(app);
 
 app.listen(PORT, error => {
   if (error) {
