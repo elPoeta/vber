@@ -3,9 +3,22 @@ const Schema = mongoose.Schema;
 const PointSchema = require('./point');
 
 const DriverSchema = new Schema({
-  email: {
+  googleId: {
     type: String,
     required: true
+  },
+  email: {
+    type: String,
+    unique: true,
+    lowercase: true,
+    required: true
+  },
+  name: {
+    type: String,
+    required: true
+  },
+  image: {
+    type: String
   },
   isDriving: {
     type: Boolean,
