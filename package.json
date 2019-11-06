@@ -24,7 +24,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "google-auth-library": "^5.2.2",
-    "mongoose": "^5.7.1"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "supertest": "^4.0.2"
