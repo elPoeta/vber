@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/elPoeta/vber#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "google-auth-library": "^5.2.2",
     "mongoose": "^5.7.1"
   },
